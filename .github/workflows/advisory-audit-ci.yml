@@ -1,0 +1,12 @@
+name: advisory-audit-ci
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  audit-placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo "advisory-audit-ci placeholder: dependency advisory audit run"
